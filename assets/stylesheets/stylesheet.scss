@@ -1,0 +1,84 @@
+@import "normalize",
+		"foundation";
+
+
+$my-background-color: #95BDB0; 
+$my-color:#FFF; 
+
+
+html,body {	
+	margin: 0;
+	background-color:$my-background-color;
+
+	}
+
+.lightbox:after {
+  content: url(close.png) url(loading.gif) url(prev.png) url(next.png);
+  display: none;
+}
+
+
+h1, span {
+	font-family:'Montserrat', sans-serif;
+	text-align: center;
+
+	line-height: 93%;
+
+}
+
+h1{font-size: 75pt;
+	top:250px;}
+
+span {
+	font-size: 28pt;
+	color: #669999;
+	position: relative;
+
+}
+ 
+p{font-size: 12pt;}
+
+li{
+	list-style-type: none;
+}
+
+.container{
+
+	background: url(background_image.png);
+	background-repeat: no-repeat;
+	background-size: 100%; 
+	margin: 0;
+	padding-top: 350px; 
+	padding-bottom: 50px;
+	width:100%;
+	min-height:1200px;
+}
+
+.white-container{
+
+	background-color: $my-color;
+	width: 1178px;
+	height: 540px;
+	padding: 20px;
+	margin: 25px auto;
+}
+
+
+.map-box {
+	width: 628px;
+	height: 477px;
+}
+
+.lightbox {
+	width: 300px; 
+	height: 300px; 
+}
+
+
+
+.images {
+	width: 230px;
+	height: 150px;
+	float: left;
+	padding: 6px;
+}

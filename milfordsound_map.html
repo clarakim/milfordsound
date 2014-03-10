@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<head>
+	<title>Milford Sound</title>
+
+<link rel="stylesheet" type="text/css" href="assets/stylesheets/stylesheet.css">
+<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+
+<!--Magnific Popup core CSS file-->
+<link rel="stylesheet" href="assets/stylesheets/lightbox.css">
+<script src="assets/javascripts/jquery-1.10.2.min.js"></script>
+<script src="assets/javascripts/lightbox-2.6.min.js"></script> 
+
+
+</head>
+
+<body>
+
+<div class="container">
+	<div class="title">
+			<h1>Milford <br> 
+				Sound <br>
+			<span>An Unforgettable Journey</span></h1>	
+	</div>
+
+	<div class="white-container">
+
+		<div class="row">
+			<div class="small-7 columns">
+				<div id= "map" class="map-box">
+				map here
+				</div>
+			</div>
+			<div class="small-5 columns">
+				
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+
+			<div id="popup-gallery" class="gallery">
+				
+			
+				<a href="images/9176575710_ed53abaf61_b.jpg" data-lightbox="milford"><img class="images" src="images/9176575710_ed53abaf61_b.jpg" ></a>
+				<a href="images/9176727210_b9cf9afc9f_b.jpg" data-lightbox="milford"><img class="images" src="images/9176727210_b9cf9afc9f_b.jpg"></a>
+				<a href="images/10188970753_c2410eddea_b.jpg" data-lightbox="milford"><img class="images" src="images/10188970753_c2410eddea_b.jpg"></a>
+				<a href="images/9485474314_f7f8a9dd83_b.jpg" data-lightbox="milford"><img class="images" src="images/9485474314_f7f8a9dd83_b.jpg"></a>
+			</div>
+			
+			</div>
+		
+		</div> <!--row-->
+
+		
+
+	</div> <!--closing white container-->
+	
+
+
+
+</div>	
+
+
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="assets/javascripts/gmap3.js"></script>
+
+<script type="text/javascript"
+src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+$("#map").gmap3({
+    //marker - points the direction of where I am
+    marker:{
+      address: "Milford Sound, Southland, New Zealand"
+      
+    },
+    map:{
+      options:{
+        zoom:13,
+        mapTypeControl: true,
+        mapTypeControlOptions: {
+          style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
+        },
+        navigationControl: true,
+        scrollwheel: true,
+        streetViewControl: true
+      }
+    }
+  });
+});
+
+</script>
+
+
+
+
+</body>
+
+</html>
