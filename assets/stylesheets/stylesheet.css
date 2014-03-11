@@ -5434,10 +5434,6 @@ html, body {
   margin: 0;
   background-color: #95bdb0; }
 
-.lightbox:after {
-  content: url(close.png) url(loading.gif) url(prev.png) url(next.png);
-  display: none; }
-
 h1, span {
   font-family: 'Montserrat', sans-serif;
   text-align: center;

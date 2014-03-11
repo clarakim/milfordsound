@@ -9,13 +9,7 @@ $my-color:#FFF;
 html,body {	
 	margin: 0;
 	background-color:$my-background-color;
-
 	}
-
-.lightbox:after {
-  content: url(close.png) url(loading.gif) url(prev.png) url(next.png);
-  display: none;
-}
 
 
 h1, span {
